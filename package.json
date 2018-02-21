@@ -1,0 +1,38 @@
+{
+  "name": "obfuscator-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for obfuscating single modules using javascript-obfuscator",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakplus/obfuscator-loader.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "webpack",
+    "obfuscator",
+    "webpack",
+    "loader",
+    "javascript-obfuscator"
+  ],
+  "author": {
+    "name": "Valerio Bianchi",
+    "email": "contacts@valeriobianchi.com",
+    "url": "https://valeriobianchi.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakplus/obfuscator-loader/issues"
+  },
+  "homepage": "https://github.com/zakplus/obfuscator-loader#readme",
+  "dependencies": {
+    "javascript-obfuscator": "^0.14.3",
+    "loader-utils": "^1.1.0"
+  }
+}
