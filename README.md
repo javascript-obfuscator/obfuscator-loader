@@ -22,9 +22,9 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: [ path.resolve(__dirname, "justMySources") ],
+        include: [ path.resolve(__dirname, "justMySources") ],
         enforce: 'post',
-        use: { loader: 'obfuscator-loader', options: obfuscatorOptions }
+        use: { loader: 'obfuscator-loader', options: {/* options here */} }
       },
     ]
   }
