@@ -32,7 +32,7 @@ module.exports = {
 ```
 
 ## Options
-This loader accepts the same options object of [javascript-loader](https://www.npmjs.com/package/javascript-obfuscator#options)
+This loader accepts the same options object of [javascript-obfuscator](https://www.npmjs.com/package/javascript-obfuscator#options)
 
 ## Limitations
 javascript-obfuscator option 'stringArray' is forced to false because if true dynamical requirements get added to code causing webpack to fail resolving some modules and emit CriticalDependenciesWarning warnings.
