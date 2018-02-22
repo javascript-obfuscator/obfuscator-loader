@@ -2,8 +2,12 @@
 
 This is a module loader for webpack wich obfuscate module source code using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator).  
 
-## installation
+## Installation
 ```npm install --save-dev obfuscator-loader```
+
+## What's new in 1.2.0
+`stringArray` option is now available. Thank you [Timofey Kachalov](https://github.com/zakplus/obfuscator-loader/issues/1).
+
 
 ## Why not a plugin?
 Obfuscating code can results in quite large files. It's a good idea to obfuscate only your code leaving third party libraries unobfuscated.
@@ -33,9 +37,6 @@ module.exports = {
 
 ## Options
 This loader accepts the same options object of [javascript-obfuscator](https://www.npmjs.com/package/javascript-obfuscator#options)
-
-## Limitations
-javascript-obfuscator option 'stringArray' is forced to false because if true dynamical requirements get added to code causing webpack to fail resolving some modules and emit CriticalDependenciesWarning warnings.
 
 ## License
 ```
