@@ -1,6 +1,6 @@
 {
   "name": "obfuscator-loader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A webpack loader for obfuscating single modules using javascript-obfuscator",
   "main": "lib/index.js",
   "directories": {

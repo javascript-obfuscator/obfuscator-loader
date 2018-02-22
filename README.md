@@ -5,7 +5,7 @@ This is a module loader for webpack wich obfuscate module source code using [jav
 ## Installation
 ```npm install --save-dev obfuscator-loader```
 
-## What's new in 1.2.0
+## What's new in 1.1.1
 `stringArray` option is now available. Thank you [Timofey Kachalov](https://github.com/zakplus/obfuscator-loader/issues/1).
 
 
