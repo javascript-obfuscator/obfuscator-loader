@@ -1,3 +1,6 @@
+# This package is deprecated
+This package is deprecated. Use loader bundled to the [webpack-obfuscator](https://github.com/javascript-obfuscator/webpack-obfuscator#loader-usage) package
+
 # obfuscator-loader for webpack
 
 This is a module loader for webpack wich obfuscate module source code using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator).  
